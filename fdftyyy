@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-
+yrfjyhufjkgukjgkjtiugkhjtjuirtkjugt
 
       <div style={{display: flex; justifyContent: spaceBetween; marginTop:100px; marginRight:150px; marginLeft: 150px}}>
         <div className="card">
