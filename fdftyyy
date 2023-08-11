@@ -1,0 +1,25 @@
+import React from 'react';
+import './styles.css';
+
+function card() {
+  return (
+    <div>
+      <h2>Card</h2>
+
+      <div style={{display: flex; justifyContent: spaceBetween; marginTop:100px; marginRight:150px; marginLeft: 150px}}>
+        <div className="card">
+          <a href="https://www.google.com"><img src="https://wallpaperaccess.com/full/3856041.jpg" alt="Avatar"
+              style="width:100%"/></a>
+        </div>
+
+        <div className="card">
+          <img src="https://wallpaperaccess.com/full/3856041.jpg" alt="Avatar" style="width:100%"/>
+        </div>
+
+      </div>
+
+      <div style={{display: flex; justifyContent: center; marginTop:100px; marginRight:150px; marginLeft: 150px}}>
+        <div className="card">
+          <a href="https://www.google.com"><img src="https://wallpaperaccess.com/full/3856041.jpg" alt="Avatar"
+              style={{width:100%}}/></a>
+        </div>
